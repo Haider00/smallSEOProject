@@ -1,0 +1,36 @@
+import React from 'react'
+import styles from './metaTagAnalyzerUI.module.css';
+// import styles from './styles.css'
+import classNames from 'classnames';
+// import cards from './data';
+
+export default () => {
+    return (
+        <div className="container mt-4">
+            <div className="row">
+                <div className={`col-md-8 border ${styles.main_area}`}>
+                    <h2 className='text-start px-3 pt-3 pb-2'>About Meta Tag Analyzer Tool</h2>
+                    <p className='px-3 pb-3 text-start'>As we all know that Meta Tags are an ideal method to furnish web indexes with data about your website pages. The Meta tag analyzer tool is there to give website owners an inside and out analysis of their Meta labels and pages. This kind of Meta Tag checker breaks down the Meta labels as well as the catchphrases on the page, from the pictures, from the heading labels, and from the required URLs.</p>
+                    <p className='px-3 py-2 text-start'>Despite the fact that the utilization of Meta information is surely in question, breaking down a contenders “description” and “keyword” Meta values is a decent method to discover thoughts for key languages and powerful duplicate for your site. Meta tags don’t influence the overall look of your page however it demonstrates web indexes, the subject of your page and also the content of your page that is shown when recorded in web crawlers and different search engines.</p>
+                    <p className='px-3 py-2 text-start'>One of the best ways, as compared to other approaches to pull in the traffic to your blog or site, is the web crawlers and that is the reason search engine optimization is extremely imperative. You can enhance your site by various strategies; the most vital being the kinds of meta labels that you may utilize, particularly the title, catchphrases, interpretation, keywords, and the robots. There is such a great amount to consider if you need to realize what are the best meta tags for you and that doesn’t simply include the correct number of meta watchwords, the length of meta interpretation is additionally critical.</p>
+                    <h3 className='text-start px-3 pt-3 pb-2'>What Does a Meta Tag Analyzer Tool Do?</h3>
+                    <p className='px-3 pb-3 text-start'>The best Meta tag analyzer tools are extremely useful in investigating the Meta tags of either yours or your rival’s individual pages and give you a nitty-gritty examination about how viable your Meta tags are. With everything taken into account, it inspects whether the Meta tags are in the correct place and whether they are appropriate for your page. One of the search engines that checks whether your data is appropriate enough is metadata checker Google. Nevertheless, on the off chance that you wish to beat your rivals at that point require this to rank better in web crawlers. The better you rank, the more prominent are your odds of getting shown and driving more movement to your page. And as far as above-mentioned processes are concerned, then we offer you the best SEO Meta tag analyzer tool.</p>
+                    <h3 className='text-start px-3 pt-3 pb-2'>How Does the Meta Tag Analyzer Tool Work?</h3>
+                    <p className=' text-justify px-3 pb-3 text-start'>After dealing with a Meta tags generator tool on any website, there comes your next assignment to dissect whether you are on the correct way or not. Presently if you are asking yourself, ‘How would I check my SEO?’ at that point, we have you secured. All you require is free online analyzer or Meta tag inspector that can help you in seeing how the internet searcher reads the data of your page. Our website offers an assortment of free online SEO instruments which likewise incorporates Meta description checker.</p>
+                    <p className='px-3 py-2 text-start'>With the assistance of one of the Best Meta Tag Analyzer, you can find the solutions to your inquiries in the least difficult way. You simply need to cut and paste the page URL which you need to look at in the content field and click on “Show Meta Data”. Without any hindrance and in a matter of seconds it shows the outcomes including page Title, Page Description and Keywords, easy as this</p>
+                    <p className='px-3 py-2 text-start'>In order to understand the usage of Meta description checker you just need to follow these steps</p>
+                    <ul className='py-2'>
+                        <li className='px-3 py-2 text-start'>The primary Meta tag that will be evaluated is Meta Title. It not merely shows the character total of your Meta Title demonstrating to you the quantity of characters yet additionally completes an SEO check, showing how significant is your page content. The greater part of the web crawlers has some limitations on the number of characters in the title which you need to withstand.</li>
+                        <li className='px-3 py-2 text-start'>Meta Description is examined straightaway using our Meta Description checker. You should deal with not surpassing the required character constraints in the description. Most of the time, usually, your Meta depiction should be comprised of 150 characters.</li>
+                        <li className='px-3 py-2 text-start'>Utilization of Meta tag analyzer makes it simple for you to investigate your Meta keywords. By investigating the SEO keywords that you utilize on your site page, you will be directed to the character’s length and the significance of the catchphrases in your Meta tags. You are prescribed not to utilize stop words like ‘and’, ‘your’, ‘or’, or ‘of’ in your watchwords; they are neglected by most web indexes. That is the reason you should consider search engine optimization selection important.</li>
+                    </ul>
+                    <h3 className='text-start px-3 pb-2'>Our Free Mata Tag Analyzer</h3>
+                    <p className='px-3 py-2 text-start'>Mets Tags Analyzer offered by us is extremely effective. It tells everything that you should know and after that, you can work the best Meta tags to utilize. This is a free site analyzer which is free. Find out about your Meta tags and ensure that you are progressing nicely. It enormously helps you in the improvement of your blog or site for web crawlers. You can even utilize this instrument to check and look at your rival’s watchwords. This is as straightforward as it sounds and the outcomes are ensured to be 100% exact and dependable. So once you have dissected your rival’s Meta tags and make sense of your in capabilities; you can refresh yours and after that see that how it impacts the positioning and online evidently.</p>
+                    <p className='px-3 py-2 text-start'>On the off chance that you are a website admin this instrument is an absolute necessity for you if you need to get an inside and outside investigation of your Meta tags. So utilize Meta Tag Analyzer offered by us and save your time and exertion. It is rapid, simple, and dependable, creating the details in a matter of seconds and there is no restriction on use. It is absolutely free and doesn’t require you join or enlist. Utilize it at whatever point and wherever you need.</p>
+
+                </div>
+            </div>
+        </div>
+    )
+}
+

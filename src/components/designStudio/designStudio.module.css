@@ -1,0 +1,95 @@
+.main_area {
+    /* display: flex; */
+    background-color: #dfecf7;
+    text-align: center;
+}
+.main_heading {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+a{
+    text-decoration: none;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 130px; */
+    padding: 0 0 20px 0;    
+    column-gap: 60px;
+    row-gap: 30px;
+}
+
+.iconDiv {
+    /* border:2px solid aqua; */
+    height: 110px;
+    width: 110px;
+    align-items: center;
+    justify-content:center;
+    box-shadow: 0px 0px 10px 5px #d9e6f7;
+    align-items:center;
+}
+.iconDiv:nth-child(1){
+    color: #3490dc;
+    background-color: #fff;
+    padding-top:2px;
+    border-bottom: 4px solid#0373ce;
+    transition: border-bottom 1s linear 0s,background-color 1s linear 0s;
+}
+.iconDiv:nth-child(2){
+    background-color: #fff;
+    padding-top:2px;
+    border-bottom: 4px solid#345774;
+    transition: border-color 1s linear 0s,background-color 1s linear 0s;
+}
+.iconDiv:nth-child(3){
+    background-color: #fff;
+    padding-top:2px;
+    border-bottom: 4px solid#a607f0;
+    transition: border-color 1s linear 0s,background-color 1s linear 0s;
+}
+.iconDiv:nth-child(4){
+    background-color: #fff;
+    padding-top:5px;
+    border-bottom: 4px solid#b5f010;
+    transition: border-color 1s linear 0s,background-color 1s linear 0s;
+}
+.iconDiv:nth-child(5){
+    background-color: #fff;
+    padding-top:2px;
+    border-bottom: 4px solid#b61218;
+    transition: border-color 1s linear 0s,background-color 1s linear 0s;
+}
+.iconDiv:nth-child(6){
+    background-color: #fff;
+    padding-top:2px;
+    border-bottom: 4px solid#05b311;
+    transition: border-color 1s linear 0s,background-color 1s linear 0s;
+}
+.iconDiv:nth-child(7){
+    background-color: #fff;
+    padding-top:2px;
+    border-bottom: 4px solid#b7066d;
+    transition: border-color 1s linear 0s,background-color 1s linear 0s;
+}
+.iconDiv:hover{
+    border-color: #000;
+    background-color: #d4eafb;
+    color: #fff;
+}
+.text{
+    /* font-style: italic; */
+    font-size:12.5px;
+    margin-top:5px;
+    margin-bottom:10px;
+    padding-bottom:2px;
+    color:#3490dc;
+    font-weight:400;
+}
+svg{
+    height: 50px !important;
+    width: 50px !important;
+    color: #3490dc;
+    /* visibility: hidden; */
+}
